@@ -1,0 +1,120 @@
+{
+	"@timestamp": "2022-06-07T06:27:37.661Z",
+	"@metadata": {
+		"beat": "metricbeat",
+		"type": "_doc",
+		"version": "8.2.2"
+	},
+	"ecs": {
+		"version": "8.0.0"
+	},
+	"metricset": {
+		"period": 10000,
+		"name": "cpu"
+	},
+	"event": {
+		"dataset": "system.cpu",
+		"module": "system",
+		"duration": 189757
+	},
+	"service": {
+		"type": "system"
+	},
+	"system": {
+		"cpu": {
+			"system": {
+				"pct": 0,
+				"norm": {
+					"pct": 0
+				}
+			},
+			"idle": {
+				"pct": 2,
+				"norm": {
+					"pct": 1
+				}
+			},
+			"iowait": {
+				"pct": 0,
+				"norm": {
+					"pct": 0
+				}
+			},
+			"steal": {
+				"pct": 0,
+				"norm": {
+					"pct": 0
+				}
+			},
+			"cores": 2,
+			"irq": {
+				"norm": {
+					"pct": 0
+				},
+				"pct": 0
+			},
+			"nice": {
+				"pct": 0,
+				"norm": {
+					"pct": 0
+				}
+			},
+			"user": {
+				"pct": 0,
+				"norm": {
+					"pct": 0
+				}
+			},
+			"softirq": {
+				"pct": 0,
+				"norm": {
+					"pct": 0
+				}
+			},
+			"total": {
+				"pct": 0,
+				"norm": {
+					"pct": 5
+				}
+			}
+		}
+	},
+	"host": {
+		"os": {
+			"family": "redhat",
+			"name": "CentOS Linux",
+			"kernel": "3.10.0-1160.42.2.el7.x86_64",
+			"codename": "Core",
+			"type": "linux",
+			"platform": "centos",
+			"version": "7 (Core)"
+		},
+		"id": "97dfcc5a451146be9988331eea3a1d31",
+		"mac": [
+			"52:54:00:b3:ce:28",
+			"02:42:d3:c7:4e:d6",
+			"6a:4c:6f:4d:07:69"
+		],
+		"cpu": {
+			"usage": 0
+		},
+		"name": "centos7.9",
+		"hostname": "centos7.9",
+		"architecture": "x86_64",
+		"containerized": false,
+		"ip": [
+			"192.168.100.204",
+			"fe80::5054:ff:feb3:ce28",
+			"172.17.0.1",
+			"fe80::42:d3ff:fec7:4ed6",
+			"fe80::684c:6fff:fe4d:769"
+		]
+	},
+	"agent": {
+		"name": "centos7.9",
+		"type": "metricbeat",
+		"version": "8.2.2",
+		"ephemeral_id": "9019ad31-bacf-4809-9516-90b1f7d42681",
+		"id": "21d04b5d-f7cd-4994-ba46-5156a9214a77"
+	}
+}
